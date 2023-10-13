@@ -43,3 +43,207 @@
 13-10-2023 02:19:49 : validate : WARNING : Validate spark object with current date :2023-10-13
 13-10-2023 02:19:49 : validate : WARNING : Validation done ...
 13-10-2023 02:19:49 : root : INFO : --------------Application done----------------
+13-10-2023 10:44:18 : root : INFO : Calling spark object
+13-10-2023 10:44:18 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:44:18 : create_spark : INFO : master is local[*]
+13-10-2023 10:44:24 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe78caf84e0>...
+13-10-2023 10:44:24 : root : INFO : Validate spark object
+13-10-2023 10:44:24 : validate : WARNING : Start get_current_date method
+13-10-2023 10:44:28 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:44:28 : validate : WARNING : Validation done ...
+13-10-2023 10:44:28 : root : INFO : --------------Application done----------------
+13-10-2023 10:45:58 : root : INFO : Calling spark object
+13-10-2023 10:45:58 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:45:58 : create_spark : INFO : master is local[*]
+13-10-2023 10:46:03 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fad77f47550>...
+13-10-2023 10:46:03 : root : INFO : Validate spark object
+13-10-2023 10:46:03 : validate : WARNING : Start get_current_date method
+13-10-2023 10:46:06 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:46:06 : validate : WARNING : Validation done ...
+13-10-2023 10:46:06 : root : INFO : Load file 
+13-10-2023 10:46:06 : ingest : WARNING : Start load file method.
+13-10-2023 10:46:06 : ingest : ERROR : An error in occurs in load_file(): An error occurred while calling o33.load.
+: java.io.IOException: Illegal file pattern: error parsing regexp: invalid escape sequence: `\u`
+	at org.apache.hadoop.fs.GlobFilter.init(GlobFilter.java:71)
+	at org.apache.hadoop.fs.GlobFilter.<init>(GlobFilter.java:50)
+	at org.apache.hadoop.fs.Globber.doGlob(Globber.java:265)
+	at org.apache.hadoop.fs.Globber.glob(Globber.java:202)
+	at org.apache.hadoop.fs.FileSystem.globStatus(FileSystem.java:2124)
+	at org.apache.spark.deploy.SparkHadoopUtil.globPath(SparkHadoopUtil.scala:254)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$3(DataSource.scala:737)
+	at org.apache.spark.util.ThreadUtils$.$anonfun$parmap$2(ThreadUtils.scala:393)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1603)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.apache.hadoop.shaded.com.google.re2j.PatternSyntaxException: error parsing regexp: invalid escape sequence: `\u`
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parseEscape(Parser.java:1439)
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parseInternal(Parser.java:966)
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parse(Parser.java:802)
+	at org.apache.hadoop.shaded.com.google.re2j.RE2.compileImpl(RE2.java:183)
+	at org.apache.hadoop.shaded.com.google.re2j.Pattern.compile(Pattern.java:136)
+	at org.apache.hadoop.shaded.com.google.re2j.Pattern.compile(Pattern.java:124)
+	at org.apache.hadoop.fs.GlobPattern.set(GlobPattern.java:156)
+	at org.apache.hadoop.fs.GlobPattern.<init>(GlobPattern.java:42)
+	at org.apache.hadoop.fs.GlobFilter.init(GlobFilter.java:67)
+	... 18 more
+
+13-10-2023 10:46:06 : root : ERROR : An error in main() : local variable 'df' referenced before assignment
+13-10-2023 10:46:06 : root : INFO : --------------Application done----------------
+13-10-2023 10:47:19 : root : INFO : Calling spark object
+13-10-2023 10:47:19 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:47:19 : create_spark : INFO : master is local[*]
+13-10-2023 10:47:24 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f435ce034e0>...
+13-10-2023 10:47:24 : root : INFO : Validate spark object
+13-10-2023 10:47:24 : validate : WARNING : Start get_current_date method
+13-10-2023 10:47:28 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:47:28 : validate : WARNING : Validation done ...
+13-10-2023 10:47:28 : root : INFO : Load file 
+13-10-2023 10:47:28 : ingest : WARNING : Start load file method.
+13-10-2023 10:47:28 : ingest : ERROR : An error in occurs in load_file(): An error occurred while calling o33.load.
+: java.io.IOException: Illegal file pattern: error parsing regexp: invalid escape sequence: `\u`
+	at org.apache.hadoop.fs.GlobFilter.init(GlobFilter.java:71)
+	at org.apache.hadoop.fs.GlobFilter.<init>(GlobFilter.java:50)
+	at org.apache.hadoop.fs.Globber.doGlob(Globber.java:265)
+	at org.apache.hadoop.fs.Globber.glob(Globber.java:202)
+	at org.apache.hadoop.fs.FileSystem.globStatus(FileSystem.java:2124)
+	at org.apache.spark.deploy.SparkHadoopUtil.globPath(SparkHadoopUtil.scala:254)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$3(DataSource.scala:737)
+	at org.apache.spark.util.ThreadUtils$.$anonfun$parmap$2(ThreadUtils.scala:393)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1603)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.apache.hadoop.shaded.com.google.re2j.PatternSyntaxException: error parsing regexp: invalid escape sequence: `\u`
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parseEscape(Parser.java:1439)
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parseInternal(Parser.java:966)
+	at org.apache.hadoop.shaded.com.google.re2j.Parser.parse(Parser.java:802)
+	at org.apache.hadoop.shaded.com.google.re2j.RE2.compileImpl(RE2.java:183)
+	at org.apache.hadoop.shaded.com.google.re2j.Pattern.compile(Pattern.java:136)
+	at org.apache.hadoop.shaded.com.google.re2j.Pattern.compile(Pattern.java:124)
+	at org.apache.hadoop.fs.GlobPattern.set(GlobPattern.java:156)
+	at org.apache.hadoop.fs.GlobPattern.<init>(GlobPattern.java:42)
+	at org.apache.hadoop.fs.GlobFilter.init(GlobFilter.java:67)
+	... 18 more
+
+13-10-2023 10:47:28 : root : ERROR : An error in main() : local variable 'df' referenced before assignment
+13-10-2023 10:47:28 : root : INFO : --------------Application done----------------
+13-10-2023 10:50:10 : root : INFO : Calling spark object
+13-10-2023 10:50:10 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:50:10 : create_spark : INFO : master is local[*]
+13-10-2023 10:50:15 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f61c4d034e0>...
+13-10-2023 10:50:15 : root : INFO : Validate spark object
+13-10-2023 10:50:15 : validate : WARNING : Start get_current_date method
+13-10-2023 10:50:19 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:50:19 : validate : WARNING : Validation done ...
+13-10-2023 10:50:19 : root : INFO : Load file 
+13-10-2023 10:50:19 : ingest : WARNING : Start load file method.
+13-10-2023 10:50:19 : root : ERROR : An error in main() : local variable 'df' referenced before assignment
+13-10-2023 10:50:19 : root : INFO : --------------Application done----------------
+13-10-2023 10:51:18 : root : INFO : Calling spark object
+13-10-2023 10:51:18 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:51:18 : create_spark : INFO : master is local[*]
+13-10-2023 10:51:23 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fb68f3ca5c0>...
+13-10-2023 10:51:23 : root : INFO : Validate spark object
+13-10-2023 10:51:23 : validate : WARNING : Start get_current_date method
+13-10-2023 10:51:27 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:51:27 : validate : WARNING : Validation done ...
+13-10-2023 10:51:27 : root : INFO : Load file 
+13-10-2023 10:51:27 : ingest : WARNING : Start load file method.
+13-10-2023 10:51:28 : ingest : WARNING : Load file done which is of parquet..........
+13-10-2023 10:51:28 : ingest : WARNING : Start load file method.
+13-10-2023 10:51:28 : root : ERROR : An error in main() : option() got an unexpected keyword argument 'header'
+13-10-2023 10:51:28 : root : INFO : --------------Application done----------------
+13-10-2023 10:52:27 : root : INFO : Calling spark object
+13-10-2023 10:52:27 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:52:27 : create_spark : INFO : master is local[*]
+13-10-2023 10:52:32 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f0611f36470>...
+13-10-2023 10:52:32 : root : INFO : Validate spark object
+13-10-2023 10:52:32 : validate : WARNING : Start get_current_date method
+13-10-2023 10:52:36 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:52:36 : validate : WARNING : Validation done ...
+13-10-2023 10:52:36 : root : INFO : Load file 
+13-10-2023 10:52:36 : ingest : WARNING : Start load file method.
+13-10-2023 10:52:37 : ingest : WARNING : Load file done which is of parquet..........
+13-10-2023 10:52:37 : root : INFO : --------------Application done----------------
+13-10-2023 10:54:55 : root : INFO : Calling spark object
+13-10-2023 10:54:55 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:54:55 : create_spark : INFO : master is local[*]
+13-10-2023 10:55:00 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f5b26c02550>...
+13-10-2023 10:55:00 : root : INFO : Validate spark object
+13-10-2023 10:55:00 : validate : WARNING : Start get_current_date method
+13-10-2023 10:55:03 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:55:03 : validate : WARNING : Validation done ...
+13-10-2023 10:55:03 : root : INFO : Load file 
+13-10-2023 10:55:03 : ingest : WARNING : Start load file method.
+13-10-2023 10:55:04 : ingest : WARNING : Load file done which is of parquet..........
+13-10-2023 10:55:04 : root : INFO : Show df 
+13-10-2023 10:55:05 : root : INFO : --------------Application done----------------
+13-10-2023 10:57:07 : root : INFO : Calling spark object
+13-10-2023 10:57:07 : create_spark : INFO : start get_spark_object method
+13-10-2023 10:57:07 : create_spark : INFO : master is local[*]
+13-10-2023 10:57:12 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f34cc1f5be0>...
+13-10-2023 10:57:12 : root : INFO : Validate spark object
+13-10-2023 10:57:12 : validate : WARNING : Start get_current_date method
+13-10-2023 10:57:15 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 10:57:15 : validate : WARNING : Validation done ...
+13-10-2023 10:57:15 : root : INFO : Load file 
+13-10-2023 10:57:15 : ingest : WARNING : Start load file method.
+13-10-2023 10:57:15 : root : ERROR : An error in main() : option() got an unexpected keyword argument 'header'
+13-10-2023 10:57:15 : root : INFO : --------------Application done----------------
+13-10-2023 11:01:30 : root : INFO : Calling spark object
+13-10-2023 11:01:30 : create_spark : INFO : start get_spark_object method
+13-10-2023 11:01:30 : create_spark : INFO : master is local[*]
+13-10-2023 11:01:35 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f0e98d4a550>...
+13-10-2023 11:01:35 : root : INFO : Validate spark object
+13-10-2023 11:01:35 : validate : WARNING : Start get_current_date method
+13-10-2023 11:01:38 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 11:01:38 : validate : WARNING : Validation done ...
+13-10-2023 11:01:38 : root : INFO : Load file 
+13-10-2023 11:01:38 : ingest : WARNING : Start load file method.
+13-10-2023 11:01:43 : ingest : WARNING : Load file done which is of csv..........
+13-10-2023 11:01:43 : root : INFO : Show dataframe :
+13-10-2023 11:01:43 : root : INFO : --------------Application done----------------
+13-10-2023 11:04:08 : root : INFO : Calling spark object
+13-10-2023 11:04:08 : create_spark : INFO : start get_spark_object method
+13-10-2023 11:04:08 : create_spark : INFO : master is local[*]
+13-10-2023 11:04:13 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f47dcf1ebe0>...
+13-10-2023 11:04:13 : root : INFO : Validate spark object
+13-10-2023 11:04:13 : validate : WARNING : Start get_current_date method
+13-10-2023 11:04:16 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 11:04:16 : validate : WARNING : Validation done ...
+13-10-2023 11:04:16 : root : INFO : Load file 
+13-10-2023 11:04:16 : ingest : WARNING : Start load file method.
+13-10-2023 11:04:16 : ingest : ERROR : An error in occurs in load_file(): option() got an unexpected keyword argument 'inferSchema'
+13-10-2023 11:04:16 : root : ERROR : An error in main() : option() got an unexpected keyword argument 'inferSchema'
+13-10-2023 11:04:16 : root : INFO : --------------Application done----------------
+13-10-2023 11:14:13 : root : INFO : Calling spark object
+13-10-2023 11:14:13 : create_spark : INFO : start get_spark_object method
+13-10-2023 11:14:13 : create_spark : INFO : master is local[*]
+13-10-2023 11:14:19 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fbdeb5b35c0>...
+13-10-2023 11:14:19 : root : INFO : Validate spark object
+13-10-2023 11:14:19 : validate : WARNING : Start get_current_date method
+13-10-2023 11:14:22 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 11:14:22 : validate : WARNING : Validation done ...
+13-10-2023 11:14:22 : root : INFO : Load file 
+13-10-2023 11:14:22 : ingest : WARNING : Start load file method.
+13-10-2023 11:14:26 : ingest : WARNING : Load file done which is of csv..........
+13-10-2023 11:14:26 : root : INFO : Show dataframe :
+13-10-2023 11:14:26 : root : INFO : Validate dataframe :
+13-10-2023 11:14:26 : ingest : WARNING : Start validate df method
+13-10-2023 11:14:28 : ingest : WARNING : Number record df: 1329329
+13-10-2023 11:14:28 : root : INFO : --------------Application done----------------
