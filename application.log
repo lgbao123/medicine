@@ -1,0 +1,45 @@
+13-10-2023 12:57:38 : root : INFO : Created spark <pyspark.sql.session.SparkSession object at 0x7f96da92f080>
+13-10-2023 02:13:59 : root : INFO : Calling spark object
+13-10-2023 02:13:59 : create_spark : INFO : start get_spark_object method
+13-10-2023 02:13:59 : create_spark : INFO : master is local[*]
+13-10-2023 02:14:03 : root : INFO : Validate spark object
+13-10-2023 02:14:03 : validate : WARNING : Start get_current_date method
+13-10-2023 02:14:07 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 02:14:07 : validate : WARNING : Validation done ...
+13-10-2023 02:14:07 : root : INFO : Application done
+13-10-2023 02:16:21 : root : INFO : Calling spark object
+13-10-2023 02:16:21 : create_spark : INFO : start get_spark_object method
+13-10-2023 02:16:21 : create_spark : INFO : master is local[*]
+13-10-2023 02:16:26 : create_spark : INFO : Spark obect created :{spark}
+13-10-2023 02:16:26 : root : INFO : Validate spark object
+13-10-2023 02:16:26 : validate : WARNING : Start get_current_date method
+13-10-2023 02:16:30 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 02:16:30 : validate : WARNING : Validation done ...
+13-10-2023 02:16:30 : root : INFO : Application done
+13-10-2023 02:18:23 : root : INFO : Calling spark object
+13-10-2023 02:18:23 : create_spark : INFO : start get_spark_object method
+13-10-2023 02:18:23 : create_spark : INFO : master is local[*]
+13-10-2023 02:18:28 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe5bde8bba8>...
+13-10-2023 02:18:28 : root : INFO : Validate spark object
+13-10-2023 02:18:28 : validate : WARNING : Start get_current_date method
+13-10-2023 02:18:32 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 02:18:32 : validate : WARNING : Validation done ...
+13-10-2023 02:18:32 : root : INFO : Application done
+13-10-2023 02:19:23 : root : INFO : Calling spark object
+13-10-2023 02:19:23 : create_spark : INFO : start get_spark_object method
+13-10-2023 02:19:23 : create_spark : INFO : master is local[*]
+13-10-2023 02:19:29 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f21d5617710>...
+13-10-2023 02:19:29 : root : INFO : Validate spark object
+13-10-2023 02:19:29 : validate : WARNING : Start get_current_date method
+13-10-2023 02:19:33 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 02:19:33 : validate : WARNING : Validation done ...
+13-10-2023 02:19:33 : root : INFO : --------------Application done----------------
+13-10-2023 02:19:41 : root : INFO : Calling spark object
+13-10-2023 02:19:41 : create_spark : INFO : start get_spark_object method
+13-10-2023 02:19:41 : create_spark : INFO : master is local[*]
+13-10-2023 02:19:46 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f8dbf2836a0>...
+13-10-2023 02:19:46 : root : INFO : Validate spark object
+13-10-2023 02:19:46 : validate : WARNING : Start get_current_date method
+13-10-2023 02:19:49 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 02:19:49 : validate : WARNING : Validation done ...
+13-10-2023 02:19:49 : root : INFO : --------------Application done----------------
