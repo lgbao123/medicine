@@ -18,7 +18,7 @@ def get_info_file(file ,src):
 
 def load_file(spark ,folder):
     try :
-        logger.warning('Start load file method.')
+        logger.warning('Start load file method ======')
         if folder  =='olap':
             src = gev.source_olap
         else:
@@ -47,7 +47,7 @@ def display_df(df):
         raise
 
 def validate_df(df):
-    logger.warning('Start validate df method')
+    logger.warning('Start validate df method =====')
     try:
         df_count = df.count()
     except Exception as e:

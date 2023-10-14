@@ -247,3 +247,910 @@ Caused by: org.apache.hadoop.shaded.com.google.re2j.PatternSyntaxException: erro
 13-10-2023 11:14:26 : ingest : WARNING : Start validate df method
 13-10-2023 11:14:28 : ingest : WARNING : Number record df: 1329329
 13-10-2023 11:14:28 : root : INFO : --------------Application done----------------
+13-10-2023 11:36:54 : root : INFO : Calling spark object
+13-10-2023 11:36:54 : create_spark : INFO : start get_spark_object method
+13-10-2023 11:36:54 : create_spark : INFO : master is local[*]
+13-10-2023 11:37:05 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fb59c1c8630>...
+13-10-2023 11:37:05 : root : INFO : Validate spark object
+13-10-2023 11:37:05 : validate : WARNING : Start get_current_date method
+13-10-2023 11:37:09 : validate : WARNING : Validate spark object with current date :2023-10-13
+13-10-2023 11:37:09 : validate : WARNING : Validation done ...
+13-10-2023 11:37:09 : root : INFO : Load file 
+13-10-2023 11:37:09 : ingest : WARNING : Start load file method.
+13-10-2023 11:37:16 : ingest : WARNING : Load file done which is of csv..........
+13-10-2023 11:37:16 : root : INFO : Show dataframe :
+13-10-2023 11:37:17 : root : INFO : Validate dataframe
+13-10-2023 11:37:17 : ingest : WARNING : Start validate df method
+13-10-2023 11:37:18 : ingest : WARNING : Number record df: 1329329
+13-10-2023 11:37:18 : root : INFO : --------------Application done----------------
+14-10-2023 12:21:20 : root : INFO : Calling spark object
+14-10-2023 12:21:20 : create_spark : INFO : start get_spark_object method
+14-10-2023 12:21:20 : create_spark : INFO : master is local[*]
+14-10-2023 12:21:25 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fb74e4b93c8>...
+14-10-2023 12:21:25 : root : INFO : Validate spark object
+14-10-2023 12:21:25 : validate : WARNING : Start get_current_date method
+14-10-2023 12:21:29 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 12:21:29 : validate : WARNING : Validation done ...
+14-10-2023 12:21:29 : root : INFO : Load file 
+14-10-2023 12:21:29 : ingest : WARNING : Start load file method.
+14-10-2023 12:21:34 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 12:21:34 : root : INFO : Validate dataframe
+14-10-2023 12:21:34 : ingest : WARNING : Start validate df method
+14-10-2023 12:21:35 : ingest : WARNING : Number record df: 1329329
+14-10-2023 12:21:35 : root : INFO : Processing dataframe
+14-10-2023 12:21:35 : data_processing : WARNING : Start clean data method ==
+14-10-2023 12:21:35 : data_processing : WARNING : Clean data done.......
+14-10-2023 12:21:35 : root : INFO : Show dataframe :
+14-10-2023 12:21:35 : root : INFO : --------------Application done----------------
+14-10-2023 12:44:59 : root : INFO : Calling spark object
+14-10-2023 12:44:59 : create_spark : INFO : start get_spark_object method
+14-10-2023 12:44:59 : create_spark : INFO : master is local[*]
+14-10-2023 12:45:05 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe93117ca90>...
+14-10-2023 12:45:05 : root : INFO : Validate spark object
+14-10-2023 12:45:05 : validate : WARNING : Start get_current_date method
+14-10-2023 12:45:09 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 12:45:09 : validate : WARNING : Validation done ...
+14-10-2023 12:45:09 : root : INFO : Load file 
+14-10-2023 12:45:09 : ingest : WARNING : Start load file method.
+14-10-2023 12:45:14 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 12:45:14 : root : INFO : Validate dataframe
+14-10-2023 12:45:14 : ingest : WARNING : Start validate df method
+14-10-2023 12:45:15 : ingest : WARNING : Number record df: 1329329
+14-10-2023 12:45:15 : root : INFO : Processing dataframe
+14-10-2023 12:45:15 : data_processing : WARNING : Start clean data method ==
+14-10-2023 12:45:15 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 12:45:15 : data_processing : WARNING : Create a column
+14-10-2023 12:45:15 : data_processing : WARNING : Clean data done.......
+14-10-2023 12:45:15 : root : INFO : Show dataframe :
+14-10-2023 12:45:16 : validate : WARNING : Start print_data_schema method (Presc_df)
+14-10-2023 12:45:16 : validate : ERROR : An error occurs in print_data_schema() : local variable 'fields' referenced before assignment
+14-10-2023 12:45:16 : root : ERROR : An error in main() : local variable 'fields' referenced before assignment
+14-10-2023 12:45:16 : root : INFO : --------------Application done----------------
+14-10-2023 12:45:49 : root : INFO : Calling spark object
+14-10-2023 12:45:49 : create_spark : INFO : start get_spark_object method
+14-10-2023 12:45:49 : create_spark : INFO : master is local[*]
+14-10-2023 12:45:54 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f580d2d5400>...
+14-10-2023 12:45:54 : root : INFO : Validate spark object
+14-10-2023 12:45:54 : validate : WARNING : Start get_current_date method
+14-10-2023 12:45:58 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 12:45:58 : validate : WARNING : Validation done ...
+14-10-2023 12:45:58 : root : INFO : Load file 
+14-10-2023 12:45:58 : ingest : WARNING : Start load file method.
+14-10-2023 12:46:02 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 12:46:02 : root : INFO : Validate dataframe
+14-10-2023 12:46:02 : ingest : WARNING : Start validate df method
+14-10-2023 12:46:03 : ingest : WARNING : Number record df: 1329329
+14-10-2023 12:46:03 : root : INFO : Processing dataframe
+14-10-2023 12:46:03 : data_processing : WARNING : Start clean data method ==
+14-10-2023 12:46:03 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 12:46:03 : data_processing : WARNING : Create a column
+14-10-2023 12:46:03 : data_processing : WARNING : Clean data done.......
+14-10-2023 12:46:03 : root : INFO : Show dataframe :
+14-10-2023 12:46:04 : validate : WARNING : Start print_data_schema method (Presc_df)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(presc_id,IntegerType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(last_name,StringType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(first_name,StringType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(city,StringType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(state,StringType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(desc,StringType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(drug_name,StringType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(total_claim_count,IntegerType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(total_day_supply,IntegerType,true)
+14-10-2023 12:46:04 : validate : WARNING : 	StructField(years_of_exp,StringType,true)
+14-10-2023 12:46:04 : validate : WARNING : print_data_schema done ...
+14-10-2023 12:46:04 : root : INFO : --------------Application done----------------
+14-10-2023 12:46:45 : root : INFO : Calling spark object
+14-10-2023 12:46:45 : create_spark : INFO : start get_spark_object method
+14-10-2023 12:46:45 : create_spark : INFO : master is local[*]
+14-10-2023 12:46:50 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7ffa28af7400>...
+14-10-2023 12:46:50 : root : INFO : Validate spark object
+14-10-2023 12:46:50 : validate : WARNING : Start get_current_date method
+14-10-2023 12:46:53 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 12:46:53 : validate : WARNING : Validation done ...
+14-10-2023 12:46:53 : root : INFO : Load file 
+14-10-2023 12:46:53 : ingest : WARNING : Start load file method.
+14-10-2023 12:46:57 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 12:46:57 : root : INFO : Validate dataframe
+14-10-2023 12:46:57 : ingest : WARNING : Start validate df method
+14-10-2023 12:46:58 : ingest : WARNING : Number record df: 1329329
+14-10-2023 12:46:58 : root : INFO : Processing dataframe
+14-10-2023 12:46:58 : data_processing : WARNING : Start clean data method ==
+14-10-2023 12:46:58 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 12:46:59 : data_processing : WARNING : Create a column
+14-10-2023 12:46:59 : data_processing : WARNING : Clean data done.......
+14-10-2023 12:46:59 : root : INFO : Show dataframe :
+14-10-2023 12:46:59 : validate : WARNING : Start print_data_schema method (Presc_df)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(presc_id,IntegerType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(last_name,StringType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(first_name,StringType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(city,StringType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(state,StringType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(desc,StringType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(drug_name,StringType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(total_claim_count,IntegerType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(total_day_supply,IntegerType,true)
+14-10-2023 12:46:59 : validate : WARNING : 			StructField(years_of_exp,StringType,true)
+14-10-2023 12:46:59 : validate : WARNING : print_data_schema done ...
+14-10-2023 12:46:59 : root : INFO : --------------Application done----------------
+14-10-2023 12:56:56 : root : INFO : Calling spark object
+14-10-2023 12:56:56 : create_spark : INFO : start get_spark_object method
+14-10-2023 12:56:56 : create_spark : INFO : master is local[*]
+14-10-2023 12:57:01 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f7595a034e0>...
+14-10-2023 12:57:01 : root : INFO : Validate spark object
+14-10-2023 12:57:01 : validate : WARNING : Start get_current_date method=====
+14-10-2023 12:57:04 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 12:57:04 : validate : WARNING : Validation done ...
+14-10-2023 12:57:04 : root : INFO : Load file 
+14-10-2023 12:57:04 : ingest : WARNING : Start load file method ======
+14-10-2023 12:57:08 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 12:57:08 : root : INFO : Validate dataframe
+14-10-2023 12:57:08 : ingest : WARNING : Start validate df method =====
+14-10-2023 12:57:10 : ingest : WARNING : Number record df: 1329329
+14-10-2023 12:57:10 : root : INFO : Processing dataframe
+14-10-2023 12:57:10 : data_processing : WARNING : Start clean data method ====
+14-10-2023 12:57:10 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 12:57:10 : data_processing : WARNING : Create a new column
+14-10-2023 12:57:10 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 12:57:10 : data_processing : WARNING : Clean data done.......
+14-10-2023 12:57:10 : root : INFO : Show dataframe :
+14-10-2023 12:57:10 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(last_name,StringType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(first_name,StringType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 12:57:10 : validate : WARNING : 		StructField(years_of_exp,StringType,true)
+14-10-2023 12:57:10 : validate : WARNING : print_data_schema done ...
+14-10-2023 12:57:10 : root : INFO : --------------Application done----------------
+14-10-2023 12:58:31 : root : INFO : Calling spark object
+14-10-2023 12:58:31 : create_spark : INFO : start get_spark_object method
+14-10-2023 12:58:31 : create_spark : INFO : master is local[*]
+14-10-2023 12:58:36 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe53f99d470>...
+14-10-2023 12:58:36 : root : INFO : Validate spark object
+14-10-2023 12:58:36 : validate : WARNING : Start get_current_date method=====
+14-10-2023 12:58:40 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 12:58:40 : validate : WARNING : Validation done ...
+14-10-2023 12:58:40 : root : INFO : Load file 
+14-10-2023 12:58:40 : ingest : WARNING : Start load file method ======
+14-10-2023 12:58:44 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 12:58:44 : root : INFO : Validate dataframe
+14-10-2023 12:58:44 : ingest : WARNING : Start validate df method =====
+14-10-2023 12:58:45 : ingest : WARNING : Number record df: 1329329
+14-10-2023 12:58:45 : root : INFO : Processing dataframe
+14-10-2023 12:58:45 : data_processing : WARNING : Start clean data method ====
+14-10-2023 12:58:45 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 12:58:45 : data_processing : WARNING : Create a new column
+14-10-2023 12:58:45 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 12:58:45 : data_processing : WARNING : Clean data done.......
+14-10-2023 12:58:45 : root : INFO : Show dataframe :
+14-10-2023 12:58:45 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(last_name,StringType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(first_name,StringType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 12:58:45 : validate : WARNING : 		StructField(years_of_exp,StringType,true)
+14-10-2023 12:58:45 : validate : WARNING : print_data_schema done ...
+14-10-2023 12:58:45 : root : INFO : --------------Application done----------------
+14-10-2023 12:59:30 : root : INFO : Calling spark object
+14-10-2023 12:59:30 : create_spark : INFO : start get_spark_object method
+14-10-2023 12:59:30 : create_spark : INFO : master is local[*]
+14-10-2023 12:59:35 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fa91e9e14a8>...
+14-10-2023 12:59:35 : root : INFO : Validate spark object
+14-10-2023 12:59:35 : validate : WARNING : Start get_current_date method=====
+14-10-2023 12:59:38 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 12:59:38 : validate : WARNING : Validation done ...
+14-10-2023 12:59:38 : root : INFO : Load file 
+14-10-2023 12:59:38 : ingest : WARNING : Start load file method ======
+14-10-2023 12:59:42 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 12:59:42 : root : INFO : Validate dataframe
+14-10-2023 12:59:42 : ingest : WARNING : Start validate df method =====
+14-10-2023 12:59:44 : ingest : WARNING : Number record df: 1329329
+14-10-2023 12:59:44 : root : INFO : Processing dataframe
+14-10-2023 12:59:44 : data_processing : WARNING : Start clean data method ====
+14-10-2023 12:59:44 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 12:59:44 : data_processing : WARNING : Create a new column
+14-10-2023 12:59:44 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 12:59:44 : data_processing : WARNING : Clean data done.......
+14-10-2023 12:59:44 : root : INFO : Show dataframe :
+14-10-2023 12:59:44 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(last_name,StringType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(first_name,StringType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 12:59:44 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 12:59:44 : validate : WARNING : print_data_schema done ...
+14-10-2023 12:59:44 : root : INFO : --------------Application done----------------
+14-10-2023 01:20:39 : root : INFO : Calling spark object
+14-10-2023 01:20:39 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:20:39 : create_spark : INFO : master is local[*]
+14-10-2023 01:20:44 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f7545431400>...
+14-10-2023 01:20:44 : root : INFO : Validate spark object
+14-10-2023 01:20:44 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:20:47 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:20:47 : validate : WARNING : Validation done ...
+14-10-2023 01:20:47 : root : INFO : Load file 
+14-10-2023 01:20:47 : ingest : WARNING : Start load file method ======
+14-10-2023 01:20:51 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:20:51 : root : INFO : Validate dataframe
+14-10-2023 01:20:51 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:20:52 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:20:52 : root : INFO : Processing dataframe
+14-10-2023 01:20:52 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:20:52 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:20:52 : data_processing : WARNING : Create a new column
+14-10-2023 01:20:52 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:20:52 : data_processing : WARNING : Create full name column with concating columns
+14-10-2023 01:20:53 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:20:53 : root : INFO : Show dataframe :
+14-10-2023 01:20:53 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(last_name,StringType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(first_name,StringType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 01:20:53 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 01:20:53 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:20:53 : root : INFO : --------------Application done----------------
+14-10-2023 01:22:45 : root : INFO : Calling spark object
+14-10-2023 01:22:45 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:22:45 : create_spark : INFO : master is local[*]
+14-10-2023 01:22:50 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f689c521b00>...
+14-10-2023 01:22:50 : root : INFO : Validate spark object
+14-10-2023 01:22:50 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:22:54 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:22:54 : validate : WARNING : Validation done ...
+14-10-2023 01:22:54 : root : INFO : Load file 
+14-10-2023 01:22:54 : ingest : WARNING : Start load file method ======
+14-10-2023 01:22:59 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:22:59 : root : INFO : Validate dataframe
+14-10-2023 01:22:59 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:23:00 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:23:00 : root : INFO : Processing dataframe
+14-10-2023 01:23:00 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:23:00 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:23:01 : data_processing : WARNING : Create a new column
+14-10-2023 01:23:01 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:23:01 : data_processing : WARNING : Create full name column with concating columns
+14-10-2023 01:23:01 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:23:01 : root : INFO : Show dataframe :
+14-10-2023 01:23:01 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(last_name,StringType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(first_name,StringType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 01:23:01 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 01:23:01 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:23:01 : root : INFO : --------------Application done----------------
+14-10-2023 01:27:43 : root : INFO : Calling spark object
+14-10-2023 01:27:43 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:27:43 : create_spark : INFO : master is local[*]
+14-10-2023 01:27:48 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f3b8f195470>...
+14-10-2023 01:27:48 : root : INFO : Validate spark object
+14-10-2023 01:27:48 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:27:52 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:27:52 : validate : WARNING : Validation done ...
+14-10-2023 01:27:52 : root : INFO : Load file 
+14-10-2023 01:27:52 : ingest : WARNING : Start load file method ======
+14-10-2023 01:27:56 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:27:56 : root : INFO : Validate dataframe
+14-10-2023 01:27:56 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:27:57 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:27:57 : root : INFO : Processing dataframe
+14-10-2023 01:27:57 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:27:57 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:27:57 : data_processing : WARNING : Create a new column
+14-10-2023 01:27:57 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:27:57 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:27:57 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:27:57 : root : INFO : Show dataframe :
+14-10-2023 01:27:58 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 01:27:58 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 01:27:58 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:27:58 : root : INFO : --------------Application done----------------
+14-10-2023 01:30:03 : root : INFO : Calling spark object
+14-10-2023 01:30:03 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:30:03 : create_spark : INFO : master is local[*]
+14-10-2023 01:30:08 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fcc810ad438>...
+14-10-2023 01:30:08 : root : INFO : Validate spark object
+14-10-2023 01:30:08 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:30:11 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:30:11 : validate : WARNING : Validation done ...
+14-10-2023 01:30:11 : root : INFO : Load file 
+14-10-2023 01:30:11 : ingest : WARNING : Start load file method ======
+14-10-2023 01:30:16 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:30:16 : root : INFO : Validate dataframe
+14-10-2023 01:30:16 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:30:17 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:30:17 : root : INFO : Processing dataframe
+14-10-2023 01:30:17 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:30:17 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:30:17 : data_processing : WARNING : Create a new column
+14-10-2023 01:30:17 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:30:17 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:30:17 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:30:17 : root : INFO : Show dataframe :
+14-10-2023 01:30:17 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 01:30:17 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 01:30:17 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:30:17 : root : INFO : --------------Application done----------------
+14-10-2023 01:30:33 : root : INFO : Calling spark object
+14-10-2023 01:30:33 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:30:33 : create_spark : INFO : master is local[*]
+14-10-2023 01:30:38 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f370c2fb518>...
+14-10-2023 01:30:38 : root : INFO : Validate spark object
+14-10-2023 01:30:38 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:30:41 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:30:41 : validate : WARNING : Validation done ...
+14-10-2023 01:30:41 : root : INFO : Load file 
+14-10-2023 01:30:41 : ingest : WARNING : Start load file method ======
+14-10-2023 01:30:45 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:30:45 : root : INFO : Validate dataframe
+14-10-2023 01:30:45 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:30:46 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:30:46 : root : INFO : Processing dataframe
+14-10-2023 01:30:46 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:30:46 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:30:46 : data_processing : WARNING : Create a new column
+14-10-2023 01:30:46 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:30:46 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:30:46 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:30:46 : root : INFO : Show dataframe :
+14-10-2023 01:30:47 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(last_name,StringType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(first_name,StringType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 01:30:47 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 01:30:47 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:30:47 : root : INFO : --------------Application done----------------
+14-10-2023 01:31:08 : root : INFO : Calling spark object
+14-10-2023 01:31:08 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:31:08 : create_spark : INFO : master is local[*]
+14-10-2023 01:31:14 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f5fceb26518>...
+14-10-2023 01:31:14 : root : INFO : Validate spark object
+14-10-2023 01:31:14 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:31:18 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:31:18 : validate : WARNING : Validation done ...
+14-10-2023 01:31:18 : root : INFO : Load file 
+14-10-2023 01:31:18 : ingest : WARNING : Start load file method ======
+14-10-2023 01:31:23 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:31:23 : root : INFO : Validate dataframe
+14-10-2023 01:31:23 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:31:24 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:31:24 : root : INFO : Processing dataframe
+14-10-2023 01:31:24 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:31:24 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:31:24 : data_processing : WARNING : Create a new column
+14-10-2023 01:31:24 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:31:24 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:31:24 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:31:24 : root : INFO : Show dataframe :
+14-10-2023 01:31:25 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 01:31:25 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 01:31:25 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:31:25 : root : INFO : --------------Application done----------------
+14-10-2023 01:47:18 : root : INFO : Calling spark object
+14-10-2023 01:47:18 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:47:18 : create_spark : INFO : master is local[*]
+14-10-2023 01:47:23 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fec690353c8>...
+14-10-2023 01:47:23 : root : INFO : Validate spark object
+14-10-2023 01:47:23 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:47:26 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:47:26 : validate : WARNING : Validation done ...
+14-10-2023 01:47:26 : root : INFO : Load file 
+14-10-2023 01:47:26 : ingest : WARNING : Start load file method ======
+14-10-2023 01:47:31 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:47:31 : root : INFO : Validate dataframe
+14-10-2023 01:47:31 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:47:32 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:47:32 : root : INFO : Processing dataframe
+14-10-2023 01:47:32 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:47:32 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:47:32 : data_processing : WARNING : Create a new column
+14-10-2023 01:47:32 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:47:32 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:47:32 : data_processing : WARNING : Check null value
+14-10-2023 01:47:32 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:47:32 : root : INFO : Show dataframe :
+14-10-2023 01:47:34 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:47:34 : validate : WARNING : 		StructField(presc_id,LongType,false)
+14-10-2023 01:47:34 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:47:34 : root : INFO : --------------Application done----------------
+14-10-2023 01:50:32 : root : INFO : Calling spark object
+14-10-2023 01:50:32 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:50:32 : create_spark : INFO : master is local[*]
+14-10-2023 01:50:37 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fbec96a03c8>...
+14-10-2023 01:50:37 : root : INFO : Validate spark object
+14-10-2023 01:50:37 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:50:40 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:50:40 : validate : WARNING : Validation done ...
+14-10-2023 01:50:40 : root : INFO : Load file 
+14-10-2023 01:50:40 : ingest : WARNING : Start load file method ======
+14-10-2023 01:50:44 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:50:44 : root : INFO : Validate dataframe
+14-10-2023 01:50:44 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:50:45 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:50:45 : root : INFO : Processing dataframe
+14-10-2023 01:50:45 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:50:45 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:50:46 : data_processing : WARNING : Create a new column
+14-10-2023 01:50:46 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:50:46 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:50:46 : data_processing : WARNING : Check null value
+14-10-2023 01:50:46 : data_processing : ERROR : An error occurs in clean_data(): Invalid argument, not a string or column: DataFrame[presc_id: int, city: string, state: string, desc: string, drug_name: string, total_claim_count: int, total_day_supply: int, years_of_exp: int, Country_name: string, full_name: string] of type <class 'pyspark.sql.dataframe.DataFrame'>. For column literals, use 'lit', 'array', 'struct' or 'create_map' function.
+14-10-2023 01:50:46 : root : ERROR : An error in main() : Invalid argument, not a string or column: DataFrame[presc_id: int, city: string, state: string, desc: string, drug_name: string, total_claim_count: int, total_day_supply: int, years_of_exp: int, Country_name: string, full_name: string] of type <class 'pyspark.sql.dataframe.DataFrame'>. For column literals, use 'lit', 'array', 'struct' or 'create_map' function.
+14-10-2023 01:50:46 : root : INFO : --------------Application done----------------
+14-10-2023 01:54:47 : root : INFO : Calling spark object
+14-10-2023 01:54:47 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:54:47 : create_spark : INFO : master is local[*]
+14-10-2023 01:54:52 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f9ac6556400>...
+14-10-2023 01:54:52 : root : INFO : Validate spark object
+14-10-2023 01:54:52 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:54:55 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:54:55 : validate : WARNING : Validation done ...
+14-10-2023 01:54:55 : root : INFO : Load file 
+14-10-2023 01:54:55 : ingest : WARNING : Start load file method ======
+14-10-2023 01:54:59 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:54:59 : root : INFO : Validate dataframe
+14-10-2023 01:54:59 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:55:01 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:55:01 : root : INFO : Processing dataframe
+14-10-2023 01:55:01 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:55:01 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:55:01 : data_processing : WARNING : Create a new column
+14-10-2023 01:55:01 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:55:01 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:55:01 : data_processing : WARNING : Check null value
+14-10-2023 01:55:01 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:55:01 : root : INFO : Show dataframe :
+14-10-2023 01:55:02 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:55:02 : validate : WARNING : 		StructField(presc_id,LongType,false)
+14-10-2023 01:55:02 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:55:02 : root : INFO : --------------Application done----------------
+14-10-2023 01:55:26 : root : INFO : Calling spark object
+14-10-2023 01:55:26 : create_spark : INFO : start get_spark_object method
+14-10-2023 01:55:26 : create_spark : INFO : master is local[*]
+14-10-2023 01:55:32 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7ff50d1e9470>...
+14-10-2023 01:55:32 : root : INFO : Validate spark object
+14-10-2023 01:55:32 : validate : WARNING : Start get_current_date method=====
+14-10-2023 01:55:36 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 01:55:36 : validate : WARNING : Validation done ...
+14-10-2023 01:55:36 : root : INFO : Load file 
+14-10-2023 01:55:36 : ingest : WARNING : Start load file method ======
+14-10-2023 01:55:40 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 01:55:40 : root : INFO : Validate dataframe
+14-10-2023 01:55:40 : ingest : WARNING : Start validate df method =====
+14-10-2023 01:55:41 : ingest : WARNING : Number record df: 1329329
+14-10-2023 01:55:41 : root : INFO : Processing dataframe
+14-10-2023 01:55:41 : data_processing : WARNING : Start clean data method ====
+14-10-2023 01:55:41 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 01:55:41 : data_processing : WARNING : Create a new column
+14-10-2023 01:55:41 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 01:55:41 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 01:55:41 : data_processing : WARNING : Check null value
+14-10-2023 01:55:42 : data_processing : WARNING : Clean data done.......
+14-10-2023 01:55:42 : root : INFO : Show dataframe :
+14-10-2023 01:55:44 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 01:55:44 : validate : WARNING : 		StructField(presc_id,LongType,false)
+14-10-2023 01:55:44 : validate : WARNING : print_data_schema done ...
+14-10-2023 01:55:44 : root : INFO : --------------Application done----------------
+14-10-2023 02:09:02 : root : INFO : Calling spark object
+14-10-2023 02:09:02 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:09:02 : create_spark : INFO : master is local[*]
+14-10-2023 02:09:07 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7efe22371470>...
+14-10-2023 02:09:07 : root : INFO : Validate spark object
+14-10-2023 02:09:07 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:09:10 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:09:10 : validate : WARNING : Validation done ...
+14-10-2023 02:09:10 : root : INFO : Load file 
+14-10-2023 02:09:10 : ingest : WARNING : Start load file method ======
+14-10-2023 02:09:15 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:09:15 : root : INFO : Validate dataframe
+14-10-2023 02:09:15 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:09:16 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:09:16 : root : INFO : Processing dataframe
+14-10-2023 02:09:16 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:09:16 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:09:16 : data_processing : WARNING : Create a new column
+14-10-2023 02:09:16 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:09:16 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:09:16 : data_processing : WARNING : Check null value
+14-10-2023 02:09:16 : data_processing : ERROR : An error occurs in clean_data(): 'Column' object is not callable
+14-10-2023 02:09:16 : root : ERROR : An error in main() : 'Column' object is not callable
+14-10-2023 02:09:16 : root : INFO : --------------Application done----------------
+14-10-2023 02:11:29 : root : INFO : Calling spark object
+14-10-2023 02:11:29 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:11:29 : create_spark : INFO : master is local[*]
+14-10-2023 02:11:34 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f6cdb808390>...
+14-10-2023 02:11:34 : root : INFO : Validate spark object
+14-10-2023 02:11:34 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:11:37 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:11:37 : validate : WARNING : Validation done ...
+14-10-2023 02:11:37 : root : INFO : Load file 
+14-10-2023 02:11:37 : ingest : WARNING : Start load file method ======
+14-10-2023 02:11:41 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:11:41 : root : INFO : Validate dataframe
+14-10-2023 02:11:41 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:11:42 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:11:42 : root : INFO : Processing dataframe
+14-10-2023 02:11:42 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:11:42 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:11:42 : data_processing : WARNING : Create a new column
+14-10-2023 02:11:42 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:11:42 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:11:42 : data_processing : WARNING : Check null value
+14-10-2023 02:11:42 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:11:42 : root : INFO : Show dataframe :
+14-10-2023 02:11:42 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:11:42 : validate : WARNING : 		StructField(CASE WHEN (presc_id IS NULL) THEN 1 END,IntegerType,true)
+14-10-2023 02:11:42 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:11:42 : root : INFO : --------------Application done----------------
+14-10-2023 02:14:34 : root : INFO : Calling spark object
+14-10-2023 02:14:34 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:14:34 : create_spark : INFO : master is local[*]
+14-10-2023 02:14:39 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f1cc95b3b70>...
+14-10-2023 02:14:39 : root : INFO : Validate spark object
+14-10-2023 02:14:39 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:14:42 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:14:42 : validate : WARNING : Validation done ...
+14-10-2023 02:14:42 : root : INFO : Load file 
+14-10-2023 02:14:42 : ingest : WARNING : Start load file method ======
+14-10-2023 02:14:46 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:14:46 : root : INFO : Validate dataframe
+14-10-2023 02:14:46 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:14:47 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:14:47 : root : INFO : Processing dataframe
+14-10-2023 02:14:47 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:14:47 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:14:47 : data_processing : WARNING : Create a new column
+14-10-2023 02:14:47 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:14:48 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:14:48 : data_processing : WARNING : Check null value
+14-10-2023 02:14:48 : data_processing : ERROR : An error occurs in clean_data(): [DATATYPE_MISMATCH.BINARY_OP_DIFF_TYPES] Cannot resolve "(presc_id OR isnan(presc_id))" due to data type mismatch: the left and right operands of the binary operator have incompatible types ("INT" and "BOOLEAN").;
+'Project [unresolvedalias(CASE WHEN isnull((presc_id#90 OR isnan(cast(presc_id#90 as double)))) THEN 1 END, Some(org.apache.spark.sql.Column$$Lambda$3517/657328332@60bb4770))]
++- Project [presc_id#90, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#131, Country_name#107, full_name#143]
+   +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#131, Country_name#107, concat_ws( , first_name#92, last_name#91) AS full_name#143]
+      +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, cast(years_of_exp#119 as int) AS years_of_exp#131, Country_name#107]
+         +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, regexp_replace(years_of_exp#40, ^=, , 1) AS years_of_exp#119, Country_name#107]
+            +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#40, USA AS Country_name#107]
+               +- Project [npi#19 AS presc_id#90, nppes_provider_last_org_name#20 AS last_name#91, nppes_provider_first_name#21 AS first_name#92, nppes_provider_city#22 AS city#93, nppes_provider_state#23 AS state#94, specialty_description#24 AS desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#40]
+                  +- Relation [npi#19,nppes_provider_last_org_name#20,nppes_provider_first_name#21,nppes_provider_city#22,nppes_provider_state#23,specialty_description#24,description_flag#25,drug_name#26,generic_name#27,bene_count#28,total_claim_count#29,total_30_day_fill_count#30,total_day_supply#31,total_drug_cost#32,bene_count_ge65#33,bene_count_ge65_suppress_flag#34,total_claim_count_ge65#35,ge65_suppress_flag#36,total_30_day_fill_count_ge65#37,total_day_supply_ge65#38,total_drug_cost_ge65#39,years_of_exp#40] csv
+
+14-10-2023 02:14:48 : root : ERROR : An error in main() : [DATATYPE_MISMATCH.BINARY_OP_DIFF_TYPES] Cannot resolve "(presc_id OR isnan(presc_id))" due to data type mismatch: the left and right operands of the binary operator have incompatible types ("INT" and "BOOLEAN").;
+'Project [unresolvedalias(CASE WHEN isnull((presc_id#90 OR isnan(cast(presc_id#90 as double)))) THEN 1 END, Some(org.apache.spark.sql.Column$$Lambda$3517/657328332@60bb4770))]
++- Project [presc_id#90, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#131, Country_name#107, full_name#143]
+   +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#131, Country_name#107, concat_ws( , first_name#92, last_name#91) AS full_name#143]
+      +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, cast(years_of_exp#119 as int) AS years_of_exp#131, Country_name#107]
+         +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, regexp_replace(years_of_exp#40, ^=, , 1) AS years_of_exp#119, Country_name#107]
+            +- Project [presc_id#90, last_name#91, first_name#92, city#93, state#94, desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#40, USA AS Country_name#107]
+               +- Project [npi#19 AS presc_id#90, nppes_provider_last_org_name#20 AS last_name#91, nppes_provider_first_name#21 AS first_name#92, nppes_provider_city#22 AS city#93, nppes_provider_state#23 AS state#94, specialty_description#24 AS desc#95, drug_name#26, total_claim_count#29, total_day_supply#31, years_of_exp#40]
+                  +- Relation [npi#19,nppes_provider_last_org_name#20,nppes_provider_first_name#21,nppes_provider_city#22,nppes_provider_state#23,specialty_description#24,description_flag#25,drug_name#26,generic_name#27,bene_count#28,total_claim_count#29,total_30_day_fill_count#30,total_day_supply#31,total_drug_cost#32,bene_count_ge65#33,bene_count_ge65_suppress_flag#34,total_claim_count_ge65#35,ge65_suppress_flag#36,total_30_day_fill_count_ge65#37,total_day_supply_ge65#38,total_drug_cost_ge65#39,years_of_exp#40] csv
+
+14-10-2023 02:14:48 : root : INFO : --------------Application done----------------
+14-10-2023 02:16:58 : root : INFO : Calling spark object
+14-10-2023 02:16:58 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:16:58 : create_spark : INFO : master is local[*]
+14-10-2023 02:17:03 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f57e57803c8>...
+14-10-2023 02:17:03 : root : INFO : Validate spark object
+14-10-2023 02:17:03 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:17:06 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:17:06 : validate : WARNING : Validation done ...
+14-10-2023 02:17:06 : root : INFO : Load file 
+14-10-2023 02:17:06 : ingest : WARNING : Start load file method ======
+14-10-2023 02:17:11 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:17:11 : root : INFO : Validate dataframe
+14-10-2023 02:17:11 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:17:12 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:17:12 : root : INFO : Processing dataframe
+14-10-2023 02:17:12 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:17:12 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:17:12 : data_processing : WARNING : Create a new column
+14-10-2023 02:17:12 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:17:12 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:17:12 : data_processing : WARNING : Check null value
+14-10-2023 02:17:12 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:17:12 : root : INFO : Show dataframe :
+14-10-2023 02:17:12 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:17:12 : validate : WARNING : 		StructField(CASE WHEN ((presc_id IS NULL) OR isnan(presc_id)) THEN 1 END,IntegerType,true)
+14-10-2023 02:17:12 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:17:12 : root : INFO : --------------Application done----------------
+14-10-2023 02:17:34 : root : INFO : Calling spark object
+14-10-2023 02:17:34 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:17:34 : create_spark : INFO : master is local[*]
+14-10-2023 02:17:38 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f277cdb7470>...
+14-10-2023 02:17:38 : root : INFO : Validate spark object
+14-10-2023 02:17:38 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:17:42 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:17:42 : validate : WARNING : Validation done ...
+14-10-2023 02:17:42 : root : INFO : Load file 
+14-10-2023 02:17:42 : ingest : WARNING : Start load file method ======
+14-10-2023 02:17:46 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:17:46 : root : INFO : Validate dataframe
+14-10-2023 02:17:46 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:17:47 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:17:47 : root : INFO : Processing dataframe
+14-10-2023 02:17:47 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:17:47 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:17:47 : data_processing : WARNING : Create a new column
+14-10-2023 02:17:47 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:17:47 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:17:47 : data_processing : WARNING : Check null value
+14-10-2023 02:17:47 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:17:47 : root : INFO : Show dataframe :
+14-10-2023 02:17:48 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:17:48 : validate : WARNING : 		StructField(CASE WHEN ((presc_id IS NULL) OR isnan(presc_id)) THEN 1 END,IntegerType,true)
+14-10-2023 02:17:48 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:17:48 : root : INFO : --------------Application done----------------
+14-10-2023 02:21:47 : root : INFO : Calling spark object
+14-10-2023 02:21:47 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:21:47 : create_spark : INFO : master is local[*]
+14-10-2023 02:21:52 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f080c289ba8>...
+14-10-2023 02:21:52 : root : INFO : Validate spark object
+14-10-2023 02:21:52 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:21:57 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:21:57 : validate : WARNING : Validation done ...
+14-10-2023 02:21:57 : root : INFO : Load file 
+14-10-2023 02:21:57 : ingest : WARNING : Start load file method ======
+14-10-2023 02:22:01 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:22:01 : root : INFO : Validate dataframe
+14-10-2023 02:22:01 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:22:03 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:22:03 : root : INFO : Processing dataframe
+14-10-2023 02:22:03 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:22:03 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:22:03 : data_processing : WARNING : Create a new column
+14-10-2023 02:22:03 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:22:03 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:22:03 : data_processing : WARNING : Check null value
+14-10-2023 02:22:03 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:22:03 : root : INFO : Show dataframe :
+14-10-2023 02:22:06 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:22:06 : validate : WARNING : 		StructField(presc_id,LongType,false)
+14-10-2023 02:22:06 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:22:06 : root : INFO : --------------Application done----------------
+14-10-2023 02:23:03 : root : INFO : Calling spark object
+14-10-2023 02:23:03 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:23:03 : create_spark : INFO : master is local[*]
+14-10-2023 02:23:07 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f1bbdf49438>...
+14-10-2023 02:23:07 : root : INFO : Validate spark object
+14-10-2023 02:23:07 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:23:11 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:23:11 : validate : WARNING : Validation done ...
+14-10-2023 02:23:11 : root : INFO : Load file 
+14-10-2023 02:23:11 : ingest : WARNING : Start load file method ======
+14-10-2023 02:23:15 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:23:15 : root : INFO : Validate dataframe
+14-10-2023 02:23:15 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:23:16 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:23:16 : root : INFO : Processing dataframe
+14-10-2023 02:23:16 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:23:16 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:23:16 : data_processing : WARNING : Create a new column
+14-10-2023 02:23:16 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:23:16 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:23:16 : data_processing : WARNING : Check null value
+14-10-2023 02:23:17 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:23:17 : root : INFO : Show dataframe :
+14-10-2023 02:23:27 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(presc_id,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(city,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(state,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(desc,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(drug_name,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(total_claim_count,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(total_day_supply,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(years_of_exp,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(Country_name,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : 		StructField(full_name,LongType,false)
+14-10-2023 02:23:27 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:23:27 : root : INFO : --------------Application done----------------
+14-10-2023 02:30:17 : root : INFO : Calling spark object
+14-10-2023 02:30:17 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:30:17 : create_spark : INFO : master is local[*]
+14-10-2023 02:30:22 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f498e99d438>...
+14-10-2023 02:30:22 : root : INFO : Validate spark object
+14-10-2023 02:30:22 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:30:26 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:30:26 : validate : WARNING : Validation done ...
+14-10-2023 02:30:26 : root : INFO : Load file 
+14-10-2023 02:30:26 : ingest : WARNING : Start load file method ======
+14-10-2023 02:30:30 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:30:30 : root : INFO : Validate dataframe
+14-10-2023 02:30:30 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:30:31 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:30:31 : root : INFO : Processing dataframe
+14-10-2023 02:30:31 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:30:31 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:30:31 : data_processing : WARNING : Create a new column
+14-10-2023 02:30:31 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:30:31 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:30:31 : data_processing : WARNING : Check null value
+14-10-2023 02:30:32 : data_processing : WARNING : Drop null value
+14-10-2023 02:30:32 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:30:32 : root : INFO : Show dataframe :
+14-10-2023 02:30:42 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(presc_id,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(city,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(state,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(desc,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(drug_name,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(total_claim_count,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(total_day_supply,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(years_of_exp,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(Country_name,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : 		StructField(full_name,LongType,false)
+14-10-2023 02:30:42 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:30:42 : root : INFO : --------------Application done----------------
+14-10-2023 02:31:42 : root : INFO : Calling spark object
+14-10-2023 02:31:42 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:31:42 : create_spark : INFO : master is local[*]
+14-10-2023 02:31:46 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f023f064470>...
+14-10-2023 02:31:46 : root : INFO : Validate spark object
+14-10-2023 02:31:46 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:31:50 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:31:50 : validate : WARNING : Validation done ...
+14-10-2023 02:31:50 : root : INFO : Load file 
+14-10-2023 02:31:50 : ingest : WARNING : Start load file method ======
+14-10-2023 02:31:54 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:31:54 : root : INFO : Validate dataframe
+14-10-2023 02:31:54 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:31:55 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:31:55 : root : INFO : Processing dataframe
+14-10-2023 02:31:55 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:31:55 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:31:55 : data_processing : WARNING : Create a new column
+14-10-2023 02:31:55 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:31:55 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:31:55 : data_processing : WARNING : Check null value
+14-10-2023 02:32:06 : data_processing : WARNING : Drop null value
+14-10-2023 02:32:06 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:32:06 : root : INFO : Show dataframe :
+14-10-2023 02:32:06 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 02:32:06 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 02:32:06 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:32:06 : root : INFO : --------------Application done----------------
+14-10-2023 02:33:17 : root : INFO : Calling spark object
+14-10-2023 02:33:17 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:33:17 : create_spark : INFO : master is local[*]
+14-10-2023 02:33:21 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f791d59ebe0>...
+14-10-2023 02:33:21 : root : INFO : Validate spark object
+14-10-2023 02:33:21 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:33:25 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:33:25 : validate : WARNING : Validation done ...
+14-10-2023 02:33:25 : root : INFO : Load file 
+14-10-2023 02:33:25 : ingest : WARNING : Start load file method ======
+14-10-2023 02:33:28 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:33:28 : root : INFO : Validate dataframe
+14-10-2023 02:33:28 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:33:29 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:33:29 : root : INFO : Processing dataframe
+14-10-2023 02:33:29 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:33:29 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:33:30 : data_processing : WARNING : Create a new column
+14-10-2023 02:33:30 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:33:30 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:33:30 : data_processing : WARNING : Check null value
+14-10-2023 02:33:41 : data_processing : WARNING : Drop null value
+14-10-2023 02:33:51 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:33:51 : root : INFO : Show dataframe :
+14-10-2023 02:33:52 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 02:33:52 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 02:33:52 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:33:52 : root : INFO : --------------Application done----------------
+14-10-2023 02:42:57 : root : INFO : Calling spark object
+14-10-2023 02:42:57 : create_spark : INFO : start get_spark_object method
+14-10-2023 02:42:57 : create_spark : INFO : master is local[*]
+14-10-2023 02:43:02 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe8835bd470>...
+14-10-2023 02:43:02 : root : INFO : Validate spark object
+14-10-2023 02:43:02 : validate : WARNING : Start get_current_date method=====
+14-10-2023 02:43:05 : validate : WARNING : Validate spark object with current date :2023-10-14
+14-10-2023 02:43:05 : validate : WARNING : Validation done ...
+14-10-2023 02:43:05 : root : INFO : Load file 
+14-10-2023 02:43:05 : ingest : WARNING : Start load file method ======
+14-10-2023 02:43:09 : ingest : WARNING : Load file done which is of csv..........
+14-10-2023 02:43:09 : root : INFO : Validate dataframe
+14-10-2023 02:43:09 : ingest : WARNING : Start validate df method =====
+14-10-2023 02:43:11 : ingest : WARNING : Number record df: 1329329
+14-10-2023 02:43:11 : root : INFO : Processing dataframe
+14-10-2023 02:43:11 : data_processing : WARNING : Start clean data method ====
+14-10-2023 02:43:11 : data_processing : WARNING : Selecting a few columns and rename
+14-10-2023 02:43:11 : data_processing : WARNING : Create a new column
+14-10-2023 02:43:11 : data_processing : WARNING : Convert "years_of_exp" from string to int
+14-10-2023 02:43:11 : data_processing : WARNING : Create full name column with concating columns and drop column
+14-10-2023 02:43:11 : data_processing : WARNING : Check null value
+14-10-2023 02:43:21 : data_processing : WARNING : Drop null value
+14-10-2023 02:43:31 : data_processing : WARNING : Clean data done.......
+14-10-2023 02:43:31 : root : INFO : Show dataframe :
+14-10-2023 02:43:32 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(presc_id,IntegerType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(city,StringType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(state,StringType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(desc,StringType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(drug_name,StringType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(total_claim_count,IntegerType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(total_day_supply,IntegerType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(years_of_exp,IntegerType,true)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(Country_name,StringType,false)
+14-10-2023 02:43:32 : validate : WARNING : 		StructField(full_name,StringType,false)
+14-10-2023 02:43:32 : validate : WARNING : print_data_schema done ...
+14-10-2023 02:43:32 : root : INFO : --------------Application done----------------
