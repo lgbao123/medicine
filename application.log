@@ -1154,3 +1154,763 @@ Caused by: org.apache.hadoop.shaded.com.google.re2j.PatternSyntaxException: erro
 14-10-2023 02:43:32 : validate : WARNING : 		StructField(full_name,StringType,false)
 14-10-2023 02:43:32 : validate : WARNING : print_data_schema done ...
 14-10-2023 02:43:32 : root : INFO : --------------Application done----------------
+16-10-2023 08:40:33 : root : INFO : Calling spark object
+16-10-2023 08:40:33 : create_spark : INFO : start get_spark_object method
+16-10-2023 08:40:33 : create_spark : INFO : master is local[*]
+16-10-2023 08:40:38 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fad775985e0>...
+16-10-2023 08:40:38 : root : INFO : Validate spark object
+16-10-2023 08:40:38 : validate : WARNING : Start get_current_date method=====
+16-10-2023 08:40:44 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 08:40:44 : validate : WARNING : Validation done ...
+16-10-2023 08:40:44 : root : INFO : Load file 
+16-10-2023 08:40:44 : ingest : WARNING : Start load file method ======
+16-10-2023 08:40:49 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 08:40:49 : root : INFO : Validate dataframe
+16-10-2023 08:40:49 : ingest : WARNING : Start validate df method =====
+16-10-2023 08:40:51 : ingest : WARNING : Number record df: 1329329
+16-10-2023 08:40:51 : root : INFO : Processing dataframe
+16-10-2023 08:40:51 : data_processing : WARNING : Start clean data method ====
+16-10-2023 08:40:51 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 08:40:51 : data_processing : WARNING : Create a new column
+16-10-2023 08:40:51 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 08:40:51 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 08:40:51 : data_processing : WARNING : Check null value
+16-10-2023 08:41:03 : data_processing : WARNING : Drop null value
+16-10-2023 08:41:14 : data_processing : WARNING : Clean data done.......
+16-10-2023 08:41:14 : root : INFO : Show dataframe :
+16-10-2023 08:41:14 : validate : WARNING : Start print_data_schema method ====(Presc_df)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('presc_id', IntegerType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('city', StringType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('state', StringType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('desc', StringType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('drug_name', StringType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('total_claim_count', IntegerType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('total_day_supply', IntegerType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('years_of_exp', IntegerType(), True)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('Country_name', StringType(), False)
+16-10-2023 08:41:14 : validate : WARNING : 		StructField('full_name', StringType(), False)
+16-10-2023 08:41:14 : validate : WARNING : print_data_schema done ...
+16-10-2023 08:41:14 : root : INFO : --------------Application done----------------
+16-10-2023 08:56:23 : root : INFO : Calling spark object
+16-10-2023 08:56:23 : create_spark : INFO : start get_spark_object method
+16-10-2023 08:56:23 : create_spark : INFO : master is local[*]
+16-10-2023 08:56:28 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f7869ec45b0>...
+16-10-2023 08:56:28 : root : INFO : Validate spark object
+16-10-2023 08:56:28 : validate : WARNING : Start get_current_date method=====
+16-10-2023 08:56:34 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 08:56:34 : validate : WARNING : Validation done ...
+16-10-2023 08:56:34 : root : INFO : Load file 
+16-10-2023 08:56:34 : ingest : WARNING : Start load file method ======
+16-10-2023 08:56:34 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 08:56:34 : ingest : WARNING : Start load file method ======
+16-10-2023 08:56:39 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 08:56:39 : root : INFO : Validate dataframe
+16-10-2023 08:56:39 : ingest : WARNING : Start validate df method =====
+16-10-2023 08:56:40 : ingest : WARNING : Number record df: 28338
+16-10-2023 08:56:40 : ingest : WARNING : Start validate df method =====
+16-10-2023 08:56:41 : ingest : WARNING : Number record df: 1329329
+16-10-2023 08:56:41 : root : INFO : Processing dataframe
+16-10-2023 08:56:41 : data_processing : WARNING : Start clean data method ====
+16-10-2023 08:56:41 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 08:56:41 : data_processing : WARNING : Create a new column
+16-10-2023 08:56:41 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 08:56:41 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 08:56:41 : data_processing : WARNING : Drop null and replace value
+16-10-2023 08:56:44 : data_processing : WARNING : Clean data done.......
+16-10-2023 08:56:44 : root : INFO : Check null after processing
+16-10-2023 08:56:44 : root : ERROR : An error in main() : check_null_df() missing 1 required positional argument: 'df_name'
+16-10-2023 08:56:44 : root : INFO : --------------Application done----------------
+16-10-2023 08:58:06 : root : INFO : Calling spark object
+16-10-2023 08:58:06 : create_spark : INFO : start get_spark_object method
+16-10-2023 08:58:06 : create_spark : INFO : master is local[*]
+16-10-2023 08:58:13 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f6ec1e815b0>...
+16-10-2023 08:58:13 : root : INFO : Validate spark object
+16-10-2023 08:58:13 : validate : WARNING : Start get_current_date method=====
+16-10-2023 08:58:18 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 08:58:18 : validate : WARNING : Validation done ...
+16-10-2023 08:58:18 : root : INFO : Load file 
+16-10-2023 08:58:18 : ingest : WARNING : Start load file method ======
+16-10-2023 08:58:19 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 08:58:19 : ingest : WARNING : Start load file method ======
+16-10-2023 08:58:24 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 08:58:24 : root : INFO : Validate dataframe
+16-10-2023 08:58:24 : ingest : WARNING : Start validate df method =====
+16-10-2023 08:58:26 : ingest : WARNING : Number record df: 28338
+16-10-2023 08:58:26 : ingest : WARNING : Start validate df method =====
+16-10-2023 08:58:30 : ingest : WARNING : Number record df: 1329329
+16-10-2023 08:58:30 : root : INFO : Processing dataframe
+16-10-2023 08:58:30 : data_processing : WARNING : Start clean data method ====
+16-10-2023 08:58:30 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 08:58:30 : data_processing : WARNING : Create a new column
+16-10-2023 08:58:30 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 08:58:30 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 08:58:30 : data_processing : WARNING : Drop null and replace value
+16-10-2023 08:58:34 : data_processing : WARNING : Clean data done.......
+16-10-2023 08:58:34 : root : INFO : Check null after processing
+16-10-2023 08:58:34 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 08:58:35 : validate : WARNING : check_null_df done ...
+16-10-2023 08:58:37 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 08:58:37 : validate : WARNING : check_null_df done ...
+16-10-2023 08:58:54 : root : INFO : --------------Application done----------------
+16-10-2023 09:15:31 : root : INFO : Calling spark object
+16-10-2023 09:15:31 : create_spark : INFO : start get_spark_object method
+16-10-2023 09:15:31 : create_spark : INFO : master is local[*]
+16-10-2023 09:15:38 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f935b81f580>...
+16-10-2023 09:15:38 : root : INFO : Validate spark object
+16-10-2023 09:15:38 : validate : WARNING : Start get_current_date method=====
+16-10-2023 09:15:44 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 09:15:44 : validate : WARNING : Validation done ...
+16-10-2023 09:15:44 : root : INFO : Load file 
+16-10-2023 09:15:44 : ingest : WARNING : Start load file method ======
+16-10-2023 09:15:45 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 09:15:45 : ingest : WARNING : Start load file method ======
+16-10-2023 09:15:49 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 09:15:49 : root : INFO : Validate dataframe
+16-10-2023 09:15:49 : ingest : WARNING : Start validate df method =====
+16-10-2023 09:15:50 : ingest : WARNING : Number record df: 28338
+16-10-2023 09:15:50 : ingest : WARNING : Start validate df method =====
+16-10-2023 09:15:52 : ingest : WARNING : Number record df: 1329329
+16-10-2023 09:15:52 : root : INFO : Processing dataframe
+16-10-2023 09:15:52 : data_processing : WARNING : Start clean data method ====
+16-10-2023 09:15:52 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 09:15:52 : data_processing : WARNING : Create a new column
+16-10-2023 09:15:52 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 09:15:52 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 09:15:52 : data_processing : WARNING : Drop null and replace value
+16-10-2023 09:15:55 : data_processing : WARNING : Clean data done.......
+16-10-2023 09:15:55 : root : INFO : Check null after processing
+16-10-2023 09:15:55 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 09:15:55 : validate : WARNING : check_null_df done ...
+16-10-2023 09:15:57 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 09:15:57 : validate : WARNING : check_null_df done ...
+16-10-2023 09:16:11 : root : INFO : Data transformation
+16-10-2023 09:16:11 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 09:16:11 : data_transformation : WARNING : Count zip
+16-10-2023 09:16:12 : data_transformation : WARNING : Data report done...........
+16-10-2023 09:16:12 : root : INFO : --------------Application done----------------
+16-10-2023 09:27:25 : root : INFO : Calling spark object
+16-10-2023 09:27:25 : create_spark : INFO : start get_spark_object method
+16-10-2023 09:27:25 : create_spark : INFO : master is local[*]
+16-10-2023 09:27:30 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f64feea0bb0>...
+16-10-2023 09:27:30 : root : INFO : Validate spark object
+16-10-2023 09:27:30 : validate : WARNING : Start get_current_date method=====
+16-10-2023 09:27:36 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 09:27:36 : validate : WARNING : Validation done ...
+16-10-2023 09:27:36 : root : INFO : Load file 
+16-10-2023 09:27:36 : ingest : WARNING : Start load file method ======
+16-10-2023 09:27:36 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 09:27:36 : ingest : WARNING : Start load file method ======
+16-10-2023 09:27:41 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 09:27:41 : root : INFO : Validate dataframe
+16-10-2023 09:27:41 : ingest : WARNING : Start validate df method =====
+16-10-2023 09:27:42 : ingest : WARNING : Number record df: 28338
+16-10-2023 09:27:42 : ingest : WARNING : Start validate df method =====
+16-10-2023 09:27:44 : ingest : WARNING : Number record df: 1329329
+16-10-2023 09:27:44 : root : INFO : Processing dataframe
+16-10-2023 09:27:44 : data_processing : WARNING : Start clean data method ====
+16-10-2023 09:27:44 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 09:27:45 : data_processing : WARNING : Create a new column
+16-10-2023 09:27:45 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 09:27:45 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 09:27:45 : data_processing : WARNING : Drop null and replace value
+16-10-2023 09:27:49 : data_processing : WARNING : Clean data done.......
+16-10-2023 09:27:49 : root : INFO : Check null after processing
+16-10-2023 09:27:49 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 09:27:49 : validate : WARNING : check_null_df done ...
+16-10-2023 09:27:51 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 09:27:51 : validate : WARNING : check_null_df done ...
+16-10-2023 09:28:03 : root : INFO : Data transformation
+16-10-2023 09:28:03 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 09:28:03 : data_transformation : WARNING : Count zip
+16-10-2023 09:28:04 : data_transformation : WARNING : Data report done...........
+16-10-2023 09:28:04 : root : INFO : --------------Application done----------------
+16-10-2023 11:14:22 : root : INFO : Calling spark object
+16-10-2023 11:14:22 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:14:22 : create_spark : INFO : master is local[*]
+16-10-2023 11:14:26 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f7df95219a0>...
+16-10-2023 11:14:26 : root : INFO : Validate spark object
+16-10-2023 11:14:26 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:14:30 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:14:30 : validate : WARNING : Validation done ...
+16-10-2023 11:14:30 : root : INFO : Load file 
+16-10-2023 11:14:30 : ingest : WARNING : Start load file method ======
+16-10-2023 11:14:31 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:14:31 : ingest : WARNING : Start load file method ======
+16-10-2023 11:14:35 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:14:35 : root : INFO : Validate dataframe
+16-10-2023 11:14:35 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:14:36 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:14:36 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:14:37 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:14:37 : root : INFO : Processing dataframe
+16-10-2023 11:14:37 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:14:37 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:14:37 : data_processing : WARNING : Create a new column
+16-10-2023 11:14:37 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:14:37 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:14:37 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:14:40 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:14:40 : root : INFO : Check null after processing
+16-10-2023 11:14:40 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 11:14:40 : validate : WARNING : check_null_df done ...
+16-10-2023 11:14:41 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 11:14:42 : validate : WARNING : check_null_df done ...
+16-10-2023 11:14:54 : root : INFO : Data transformation
+16-10-2023 11:14:54 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:14:54 : data_transformation : WARNING : Count zip
+16-10-2023 11:14:54 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:14:54 : data_transformation : ERROR : An error occurs in data_report1 None
+16-10-2023 11:14:54 : root : ERROR : An error in main() : 'DataFrame' object has no attribute 'grouBy'
+16-10-2023 11:14:54 : root : INFO : --------------Application done----------------
+16-10-2023 11:16:42 : root : INFO : Calling spark object
+16-10-2023 11:16:42 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:16:42 : create_spark : INFO : master is local[*]
+16-10-2023 11:16:47 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f35d34576d0>...
+16-10-2023 11:16:47 : root : INFO : Validate spark object
+16-10-2023 11:16:47 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:16:47 : root : ERROR : Exception while sending command.
+Traceback (most recent call last):
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=4>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+16-10-2023 11:16:47 : root : ERROR : Exception while sending command.
+Traceback (most recent call last):
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/pyspark/context.py", line 377, in signal_handler
+    self.cancelAllJobs()
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/pyspark/context.py", line 2255, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/pyspark/errors/exceptions/captured.py", line 169, in deco
+    return f(*a, **kw)
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o14.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+16-10-2023 11:16:47 : validate : ERROR : An error occurs in get_current_date() : An error occurred while calling o25.sql
+16-10-2023 11:16:47 : root : ERROR : An error in main() : An error occurred while calling o25.sql
+16-10-2023 11:16:47 : root : INFO : --------------Application done----------------
+16-10-2023 11:16:49 : root : INFO : Calling spark object
+16-10-2023 11:16:49 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:16:49 : create_spark : INFO : master is local[*]
+16-10-2023 11:16:54 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f966e6736d0>...
+16-10-2023 11:16:54 : root : INFO : Validate spark object
+16-10-2023 11:16:54 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:17:00 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:17:00 : validate : WARNING : Validation done ...
+16-10-2023 11:17:00 : root : INFO : Load file 
+16-10-2023 11:17:00 : ingest : WARNING : Start load file method ======
+16-10-2023 11:17:01 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:17:01 : ingest : WARNING : Start load file method ======
+16-10-2023 11:17:05 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:17:05 : root : INFO : Validate dataframe
+16-10-2023 11:17:05 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:17:06 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:17:06 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:17:07 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:17:07 : root : INFO : Processing dataframe
+16-10-2023 11:17:07 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:17:07 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:17:07 : data_processing : WARNING : Create a new column
+16-10-2023 11:17:07 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:17:07 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:17:07 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:17:10 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:17:10 : root : INFO : Check null after processing
+16-10-2023 11:17:10 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 11:17:10 : validate : WARNING : check_null_df done ...
+16-10-2023 11:17:11 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 11:17:11 : validate : WARNING : check_null_df done ...
+16-10-2023 11:17:24 : root : INFO : Data transformation
+16-10-2023 11:17:24 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:17:24 : data_transformation : WARNING : Count zip
+16-10-2023 11:17:24 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:17:24 : data_transformation : ERROR : An error occurs in data_report1 None
+16-10-2023 11:17:24 : root : ERROR : An error in main() : [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `state` cannot be resolved. Did you mean one of the following? [`lat`, `state_id`, `city`, `lng`, `state_name`].;
+'Aggregate [city#2, 'state], [city#2, 'state, sum('total_claim_count) AS total_claim_count#542, count('presc_id) AS total_presc#544]
++- Project [city#2, city_ascii#3, state_id#4, state_name#5, county_fips#6, county_name#7, lat#8, lng#9, population#10, density#11, timezone#12, zips#13, split_and_count(zips#13)#513 AS zip_count#514]
+   +- Relation [city#2,city_ascii#3,state_id#4,state_name#5,county_fips#6,county_name#7,lat#8,lng#9,population#10,density#11,timezone#12,zips#13] parquet
+
+16-10-2023 11:17:24 : root : INFO : --------------Application done----------------
+16-10-2023 11:21:14 : root : INFO : Calling spark object
+16-10-2023 11:21:14 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:21:14 : create_spark : INFO : master is local[*]
+16-10-2023 11:21:19 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f7a9768b6d0>...
+16-10-2023 11:21:19 : root : INFO : Validate spark object
+16-10-2023 11:21:19 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:21:25 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:21:25 : validate : WARNING : Validation done ...
+16-10-2023 11:21:25 : root : INFO : Load file 
+16-10-2023 11:21:25 : ingest : WARNING : Start load file method ======
+16-10-2023 11:21:26 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:21:26 : ingest : WARNING : Start load file method ======
+16-10-2023 11:21:30 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:21:30 : root : INFO : Validate dataframe
+16-10-2023 11:21:30 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:21:31 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:21:31 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:21:32 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:21:32 : root : INFO : Processing dataframe
+16-10-2023 11:21:32 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:21:32 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:21:32 : data_processing : WARNING : Create a new column
+16-10-2023 11:21:32 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:21:32 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:21:32 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:21:35 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:21:35 : root : INFO : Check null after processing
+16-10-2023 11:21:35 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 11:21:35 : validate : WARNING : check_null_df done ...
+16-10-2023 11:21:36 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 11:21:36 : validate : WARNING : check_null_df done ...
+16-10-2023 11:21:48 : root : INFO : Data transformation
+16-10-2023 11:21:48 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:21:48 : data_transformation : WARNING : Count zip
+16-10-2023 11:21:48 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:21:48 : data_transformation : ERROR : An error occurs in data_report1 None
+16-10-2023 11:21:48 : root : ERROR : An error in main() : 'DataFrame' object has no attribute 'state'
+16-10-2023 11:21:48 : root : INFO : --------------Application done----------------
+16-10-2023 11:22:11 : root : INFO : Calling spark object
+16-10-2023 11:22:11 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:22:11 : create_spark : INFO : master is local[*]
+16-10-2023 11:22:16 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f9013c576d0>...
+16-10-2023 11:22:16 : root : INFO : Validate spark object
+16-10-2023 11:22:16 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:22:19 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:22:19 : validate : WARNING : Validation done ...
+16-10-2023 11:22:19 : root : INFO : Load file 
+16-10-2023 11:22:19 : ingest : WARNING : Start load file method ======
+16-10-2023 11:22:20 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:22:20 : ingest : WARNING : Start load file method ======
+16-10-2023 11:22:24 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:22:24 : root : INFO : Validate dataframe
+16-10-2023 11:22:24 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:22:25 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:22:25 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:22:26 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:22:26 : root : INFO : Processing dataframe
+16-10-2023 11:22:26 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:22:26 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:22:26 : data_processing : WARNING : Create a new column
+16-10-2023 11:22:26 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:22:26 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:22:26 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:22:28 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:22:28 : root : INFO : Check null after processing
+16-10-2023 11:22:28 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 11:22:28 : validate : WARNING : check_null_df done ...
+16-10-2023 11:22:30 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 11:22:30 : validate : WARNING : check_null_df done ...
+16-10-2023 11:22:40 : root : INFO : Data transformation
+16-10-2023 11:22:40 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:22:40 : data_transformation : WARNING : Count zip
+16-10-2023 11:22:40 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:22:43 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:22:43 : root : INFO : --------------Application done----------------
+16-10-2023 11:23:48 : root : INFO : Calling spark object
+16-10-2023 11:23:48 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:23:48 : create_spark : INFO : master is local[*]
+16-10-2023 11:23:52 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fb3e00c46d0>...
+16-10-2023 11:23:52 : root : INFO : Validate spark object
+16-10-2023 11:23:52 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:23:56 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:23:56 : validate : WARNING : Validation done ...
+16-10-2023 11:23:56 : root : INFO : Load file 
+16-10-2023 11:23:56 : ingest : WARNING : Start load file method ======
+16-10-2023 11:23:57 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:23:57 : ingest : WARNING : Start load file method ======
+16-10-2023 11:24:01 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:24:01 : root : INFO : Validate dataframe
+16-10-2023 11:24:01 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:24:01 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:24:01 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:24:02 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:24:02 : root : INFO : Processing dataframe
+16-10-2023 11:24:02 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:24:02 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:24:03 : data_processing : WARNING : Create a new column
+16-10-2023 11:24:03 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:24:03 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:24:03 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:24:05 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:24:05 : root : INFO : Check null after processing
+16-10-2023 11:24:05 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 11:24:05 : validate : WARNING : check_null_df done ...
+16-10-2023 11:24:06 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 11:24:06 : validate : WARNING : check_null_df done ...
+16-10-2023 11:24:17 : root : INFO : Data transformation
+16-10-2023 11:24:17 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:24:17 : data_transformation : WARNING : Count zip
+16-10-2023 11:24:17 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:24:18 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:24:18 : root : INFO : --------------Application done----------------
+16-10-2023 11:24:41 : root : INFO : Calling spark object
+16-10-2023 11:24:41 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:24:41 : create_spark : INFO : master is local[*]
+16-10-2023 11:24:45 : root : ERROR : KeyboardInterrupt while sending command.
+Traceback (most recent call last):
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/home/bao/Desktop/data/medicine/venv/lib/python3.8/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+16-10-2023 11:24:50 : root : INFO : Calling spark object
+16-10-2023 11:24:50 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:24:50 : create_spark : INFO : master is local[*]
+16-10-2023 11:24:54 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f69bff0b6d0>...
+16-10-2023 11:24:54 : root : INFO : Validate spark object
+16-10-2023 11:24:54 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:25:00 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:25:00 : validate : WARNING : Validation done ...
+16-10-2023 11:25:00 : root : INFO : Load file 
+16-10-2023 11:25:00 : ingest : WARNING : Start load file method ======
+16-10-2023 11:25:00 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:25:00 : ingest : WARNING : Start load file method ======
+16-10-2023 11:25:05 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:25:05 : root : INFO : Validate dataframe
+16-10-2023 11:25:05 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:25:06 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:25:06 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:25:07 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:25:07 : root : INFO : Processing dataframe
+16-10-2023 11:25:07 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:25:07 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:25:07 : data_processing : WARNING : Create a new column
+16-10-2023 11:25:07 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:25:07 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:25:07 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:25:09 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:25:09 : root : INFO : Check null after processing
+16-10-2023 11:25:09 : validate : WARNING : Start check_null_df method ====(df_city)
+16-10-2023 11:25:10 : validate : WARNING : check_null_df done ...
+16-10-2023 11:25:11 : validate : WARNING : Start check_null_df method ====(df_pres)
+16-10-2023 11:25:11 : validate : WARNING : check_null_df done ...
+16-10-2023 11:25:22 : root : INFO : Data transformation
+16-10-2023 11:25:22 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:25:22 : data_transformation : WARNING : Count zip
+16-10-2023 11:25:22 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:25:27 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:25:27 : root : INFO : --------------Application done----------------
+16-10-2023 11:26:48 : root : INFO : Calling spark object
+16-10-2023 11:26:48 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:26:48 : create_spark : INFO : master is local[*]
+16-10-2023 11:26:53 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe02580f6d0>...
+16-10-2023 11:26:53 : root : INFO : Validate spark object
+16-10-2023 11:26:53 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:26:57 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:26:57 : validate : WARNING : Validation done ...
+16-10-2023 11:26:57 : root : INFO : Load file 
+16-10-2023 11:26:57 : ingest : WARNING : Start load file method ======
+16-10-2023 11:26:58 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:26:58 : ingest : WARNING : Start load file method ======
+16-10-2023 11:27:01 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:27:01 : root : INFO : Validate dataframe
+16-10-2023 11:27:01 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:27:02 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:27:02 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:27:03 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:27:03 : root : INFO : Processing dataframe
+16-10-2023 11:27:03 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:27:03 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:27:03 : data_processing : WARNING : Create a new column
+16-10-2023 11:27:03 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:27:03 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:27:03 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:27:06 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:27:06 : root : INFO : Check null after processing
+16-10-2023 11:27:06 : root : INFO : Data transformation
+16-10-2023 11:27:06 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:27:06 : data_transformation : WARNING : Count zip
+16-10-2023 11:27:06 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:27:09 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:27:09 : root : INFO : --------------Application done----------------
+16-10-2023 11:31:59 : root : INFO : Calling spark object
+16-10-2023 11:31:59 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:31:59 : create_spark : INFO : master is local[*]
+16-10-2023 11:32:03 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fca67d75070>...
+16-10-2023 11:32:03 : root : INFO : Validate spark object
+16-10-2023 11:32:03 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:32:07 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:32:07 : validate : WARNING : Validation done ...
+16-10-2023 11:32:07 : root : INFO : Load file 
+16-10-2023 11:32:07 : ingest : WARNING : Start load file method ======
+16-10-2023 11:32:08 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:32:08 : ingest : WARNING : Start load file method ======
+16-10-2023 11:32:12 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:32:12 : root : INFO : Validate dataframe
+16-10-2023 11:32:12 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:32:13 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:32:13 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:32:14 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:32:14 : root : INFO : Processing dataframe
+16-10-2023 11:32:14 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:32:14 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:32:14 : data_processing : WARNING : Create a new column
+16-10-2023 11:32:14 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:32:14 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:32:14 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:32:16 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:32:16 : root : INFO : Check null after processing
+16-10-2023 11:32:16 : root : INFO : Data transformation
+16-10-2023 11:32:16 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:32:16 : data_transformation : WARNING : Count zip
+16-10-2023 11:32:17 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:32:20 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:32:20 : root : INFO : --------------Application done----------------
+16-10-2023 11:32:56 : root : INFO : Calling spark object
+16-10-2023 11:32:56 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:32:56 : create_spark : INFO : master is local[*]
+16-10-2023 11:33:01 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f6f57129580>...
+16-10-2023 11:33:01 : root : INFO : Validate spark object
+16-10-2023 11:33:01 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:33:05 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:33:05 : validate : WARNING : Validation done ...
+16-10-2023 11:33:05 : root : INFO : Load file 
+16-10-2023 11:33:05 : ingest : WARNING : Start load file method ======
+16-10-2023 11:33:06 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:33:06 : ingest : WARNING : Start load file method ======
+16-10-2023 11:33:09 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:33:09 : root : INFO : Validate dataframe
+16-10-2023 11:33:09 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:33:10 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:33:10 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:33:11 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:33:11 : root : INFO : Processing dataframe
+16-10-2023 11:33:11 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:33:11 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:33:11 : data_processing : WARNING : Create a new column
+16-10-2023 11:33:11 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:33:11 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:33:11 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:33:14 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:33:14 : root : INFO : Check null after processing
+16-10-2023 11:33:14 : root : INFO : Data transformation
+16-10-2023 11:33:14 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:33:14 : data_transformation : WARNING : Count zip
+16-10-2023 11:33:14 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:33:19 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:33:19 : root : INFO : --------------Application done----------------
+16-10-2023 11:36:02 : root : INFO : Calling spark object
+16-10-2023 11:36:02 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:36:02 : create_spark : INFO : master is local[*]
+16-10-2023 11:36:07 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe193bc4bb0>...
+16-10-2023 11:36:07 : root : INFO : Validate spark object
+16-10-2023 11:36:07 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:36:13 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:36:13 : validate : WARNING : Validation done ...
+16-10-2023 11:36:13 : root : INFO : Load file 
+16-10-2023 11:36:13 : ingest : WARNING : Start load file method ======
+16-10-2023 11:36:14 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:36:14 : ingest : WARNING : Start load file method ======
+16-10-2023 11:36:19 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:36:19 : root : INFO : Validate dataframe
+16-10-2023 11:36:19 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:36:20 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:36:20 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:36:21 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:36:21 : root : INFO : Processing dataframe
+16-10-2023 11:36:21 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:36:21 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:36:21 : data_processing : WARNING : Create a new column
+16-10-2023 11:36:21 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:36:21 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:36:21 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:36:24 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:36:24 : root : INFO : Check null after processing
+16-10-2023 11:36:24 : root : INFO : Data transformation
+16-10-2023 11:36:24 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:36:24 : data_transformation : WARNING : Count zip
+16-10-2023 11:36:24 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:36:24 : data_transformation : ERROR : An error occurs in data_report1 None
+16-10-2023 11:36:24 : root : ERROR : An error in main() : [AMBIGUOUS_REFERENCE] Reference `city` is ambiguous, could be: [`city`, `city`].
+16-10-2023 11:36:24 : root : INFO : --------------Application done----------------
+16-10-2023 11:42:25 : root : INFO : Calling spark object
+16-10-2023 11:42:25 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:42:25 : create_spark : INFO : master is local[*]
+16-10-2023 11:42:29 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f20e192dbb0>...
+16-10-2023 11:42:29 : root : INFO : Validate spark object
+16-10-2023 11:42:29 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:42:33 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:42:33 : validate : WARNING : Validation done ...
+16-10-2023 11:42:33 : root : INFO : Load file 
+16-10-2023 11:42:33 : ingest : WARNING : Start load file method ======
+16-10-2023 11:42:34 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:42:34 : ingest : WARNING : Start load file method ======
+16-10-2023 11:42:38 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:42:38 : root : INFO : Validate dataframe
+16-10-2023 11:42:38 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:42:38 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:42:38 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:42:39 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:42:39 : root : INFO : Processing dataframe
+16-10-2023 11:42:39 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:42:39 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:42:39 : data_processing : WARNING : Create a new column
+16-10-2023 11:42:39 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:42:39 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:42:39 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:42:41 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:42:41 : root : INFO : Check null after processing
+16-10-2023 11:42:41 : root : INFO : Data transformation
+16-10-2023 11:42:41 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:42:41 : data_transformation : WARNING : Count zip
+16-10-2023 11:42:41 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:42:42 : data_transformation : ERROR : An error occurs in data_report1 None
+16-10-2023 11:42:42 : root : ERROR : An error in main() : [AMBIGUOUS_REFERENCE] Reference `city` is ambiguous, could be: [`city`, `city`].
+16-10-2023 11:42:42 : root : INFO : --------------Application done----------------
+16-10-2023 11:43:31 : root : INFO : Calling spark object
+16-10-2023 11:43:31 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:43:31 : create_spark : INFO : master is local[*]
+16-10-2023 11:43:35 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fe2dad6e580>...
+16-10-2023 11:43:35 : root : INFO : Validate spark object
+16-10-2023 11:43:35 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:43:39 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:43:39 : validate : WARNING : Validation done ...
+16-10-2023 11:43:39 : root : INFO : Load file 
+16-10-2023 11:43:39 : ingest : WARNING : Start load file method ======
+16-10-2023 11:43:39 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:43:39 : ingest : WARNING : Start load file method ======
+16-10-2023 11:43:44 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:43:44 : root : INFO : Validate dataframe
+16-10-2023 11:43:44 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:43:44 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:43:44 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:43:46 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:43:46 : root : INFO : Processing dataframe
+16-10-2023 11:43:46 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:43:46 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:43:46 : data_processing : WARNING : Create a new column
+16-10-2023 11:43:46 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:43:46 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:43:46 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:43:48 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:43:48 : root : INFO : Check null after processing
+16-10-2023 11:43:48 : root : INFO : Data transformation
+16-10-2023 11:43:48 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:43:48 : data_transformation : WARNING : Count zip
+16-10-2023 11:43:48 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:43:48 : data_transformation : ERROR : An error occurs in data_report1 None
+16-10-2023 11:43:48 : root : ERROR : An error in main() : name 'df_city_agg' is not defined
+16-10-2023 11:43:48 : root : INFO : --------------Application done----------------
+16-10-2023 11:43:59 : root : INFO : Calling spark object
+16-10-2023 11:43:59 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:43:59 : create_spark : INFO : master is local[*]
+16-10-2023 11:44:03 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f6bb221fbb0>...
+16-10-2023 11:44:03 : root : INFO : Validate spark object
+16-10-2023 11:44:03 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:44:08 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:44:08 : validate : WARNING : Validation done ...
+16-10-2023 11:44:08 : root : INFO : Load file 
+16-10-2023 11:44:08 : ingest : WARNING : Start load file method ======
+16-10-2023 11:44:09 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:44:09 : ingest : WARNING : Start load file method ======
+16-10-2023 11:44:14 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:44:14 : root : INFO : Validate dataframe
+16-10-2023 11:44:14 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:44:15 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:44:15 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:44:16 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:44:16 : root : INFO : Processing dataframe
+16-10-2023 11:44:16 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:44:16 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:44:16 : data_processing : WARNING : Create a new column
+16-10-2023 11:44:16 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:44:16 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:44:16 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:44:19 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:44:19 : root : INFO : Check null after processing
+16-10-2023 11:44:19 : root : INFO : Data transformation
+16-10-2023 11:44:19 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:44:19 : data_transformation : WARNING : Count zip
+16-10-2023 11:44:19 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:44:23 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:44:23 : root : INFO : --------------Application done----------------
+16-10-2023 11:44:28 : root : INFO : Calling spark object
+16-10-2023 11:44:28 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:44:28 : create_spark : INFO : master is local[*]
+16-10-2023 11:44:32 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7fc5bbc17bb0>...
+16-10-2023 11:44:32 : root : INFO : Validate spark object
+16-10-2023 11:44:32 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:44:36 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:44:36 : validate : WARNING : Validation done ...
+16-10-2023 11:44:36 : root : INFO : Load file 
+16-10-2023 11:44:36 : ingest : WARNING : Start load file method ======
+16-10-2023 11:44:37 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:44:37 : ingest : WARNING : Start load file method ======
+16-10-2023 11:44:41 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:44:41 : root : INFO : Validate dataframe
+16-10-2023 11:44:41 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:44:41 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:44:41 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:44:43 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:44:43 : root : INFO : Processing dataframe
+16-10-2023 11:44:43 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:44:43 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:44:43 : data_processing : WARNING : Create a new column
+16-10-2023 11:44:43 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:44:43 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:44:43 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:44:45 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:44:45 : root : INFO : Check null after processing
+16-10-2023 11:44:45 : root : INFO : Data transformation
+16-10-2023 11:44:45 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:44:45 : data_transformation : WARNING : Count zip
+16-10-2023 11:44:45 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:44:50 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:44:50 : root : INFO : --------------Application done----------------
+16-10-2023 11:45:31 : root : INFO : Calling spark object
+16-10-2023 11:45:31 : create_spark : INFO : start get_spark_object method
+16-10-2023 11:45:31 : create_spark : INFO : master is local[*]
+16-10-2023 11:45:35 : create_spark : INFO : Spark obect created :<pyspark.sql.session.SparkSession object at 0x7f3d8d9a7bb0>...
+16-10-2023 11:45:35 : root : INFO : Validate spark object
+16-10-2023 11:45:35 : validate : WARNING : Start get_current_date method=====
+16-10-2023 11:45:39 : validate : WARNING : Validate spark object with current date :2023-10-16
+16-10-2023 11:45:39 : validate : WARNING : Validation done ...
+16-10-2023 11:45:39 : root : INFO : Load file 
+16-10-2023 11:45:39 : ingest : WARNING : Start load file method ======
+16-10-2023 11:45:40 : ingest : WARNING : Load file done which is of parquet..........
+16-10-2023 11:45:40 : ingest : WARNING : Start load file method ======
+16-10-2023 11:45:44 : ingest : WARNING : Load file done which is of csv..........
+16-10-2023 11:45:44 : root : INFO : Validate dataframe
+16-10-2023 11:45:44 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:45:45 : ingest : WARNING : Number record df: 28338
+16-10-2023 11:45:45 : ingest : WARNING : Start validate df method =====
+16-10-2023 11:45:46 : ingest : WARNING : Number record df: 1329329
+16-10-2023 11:45:46 : root : INFO : Processing dataframe
+16-10-2023 11:45:46 : data_processing : WARNING : Start clean data method ====
+16-10-2023 11:45:46 : data_processing : WARNING : Selecting a few columns and rename
+16-10-2023 11:45:46 : data_processing : WARNING : Create a new column
+16-10-2023 11:45:46 : data_processing : WARNING : Convert "years_of_exp" from string to int
+16-10-2023 11:45:46 : data_processing : WARNING : Create full name column with concating columns and drop column
+16-10-2023 11:45:46 : data_processing : WARNING : Drop null and replace value
+16-10-2023 11:45:48 : data_processing : WARNING : Clean data done.......
+16-10-2023 11:45:48 : root : INFO : Check null after processing
+16-10-2023 11:45:48 : root : INFO : Data transformation
+16-10-2023 11:45:48 : data_transformation : WARNING : Start data_report1 method =====
+16-10-2023 11:45:48 : data_transformation : WARNING : Count zip
+16-10-2023 11:45:48 : data_transformation : WARNING : Count prescriber id and sum total claim by city
+16-10-2023 11:45:48 : data_transformation : WARNING : Data report done...........
+16-10-2023 11:45:53 : root : INFO : --------------Application done----------------
