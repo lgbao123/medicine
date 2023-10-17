@@ -14,3 +14,6 @@ current = os.getcwd()
 
 source_oltp = current + '/src/oltp'
 source_olap = current + '/src/olap'
+
+city_path = 'output/city'
+pres_path = 'output/pres'
