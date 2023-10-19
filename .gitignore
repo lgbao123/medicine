@@ -2,3 +2,4 @@
 *.parquet
 venv
 output
+spark-warehouse

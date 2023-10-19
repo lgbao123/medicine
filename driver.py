@@ -8,12 +8,13 @@ from extraction import extract
 import logging
 import logging.config
 from time import perf_counter
-
+from persist import *
 logging.config.fileConfig('properties/configuration/logging.conf')
-
+import sys
 
 def main():
     try :
+    
         logging.info('Calling spark object')
         spark =get_spark_object(gev.envn,gev.appName)
         logging.info('Validate spark object')
@@ -31,19 +32,21 @@ def main():
         # check_null_df(df_pres,'df_pres').show()
         logging.info('Data transformation')
         df_report1 =data_report1(df_city,df_pres)
-        # df_report1.show()
         df_report2= data_report2(df_pres)
         logging.info('Extract file into output')
         extract(df_report1,'orc',gev.city_path,1,False,'snappy')
         extract(df_report2,'parquet',gev.pres_path,2,False,'snappy')
 
-
+        logging.info('Save data into Hive')
+        save_data_to_hive(spark,df_report1,'cities','city','state','append')
+        save_data_to_hive(spark,df_report2,'presc','presc','state','append')
         # logging.info('Show dataframe :')
         # display_df(df2)
         # print_data_schema(df2,'Presc_df')
 
     except Exception as e:
         logging.error(f'An error in main() : {str(e)}')
+        sys.exit(1)
 
 
 

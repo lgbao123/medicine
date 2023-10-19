@@ -12,7 +12,7 @@ def get_spark_object(env , appName):
         else:
             master ='Yarn'
         logger.info(f'master is {master}')
-        spark = SparkSession.builder.master(master).appName(appName).getOrCreate()
+        spark = SparkSession.builder.master(master).appName(appName).enableHiveSupport().getOrCreate()
         
     except Exception as e:
         logger.error(f'An error occurs in get_spark_object() : {str(e)}')
